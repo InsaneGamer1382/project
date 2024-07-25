@@ -1,0 +1,132 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background-color: #555;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+main h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main ul li {
+  background-color: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto; /* Ensures the footer stays at the bottom */
+}
+
+footer p {
+  margin: 0;
+}
+.family-tree{
+  width: 50%;
+  margin-left: 19%;
+  }  
+  .head-family-tree{
+    margin-left: 73px;
+  }
+  .mypic{
+    width :250px;
+    height: 300px;
+  }
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header nav a {
+      margin: 5px 0;
+  }
+}
